@@ -1,0 +1,26 @@
+#Day3 #Summary #SessionSummary
+Quick recap of Git and GitHub.
+Architecture of DevOps(Development and Operation)
+Tasks of #Devloper #Operations
+Process involved when a new application request from a client to be developed and deployed.
+Setting up an environment for a Webserver.
+Client request --> Development team --> SCM(GitHub) --> System(Hardware, OS, webserver) --> Application accessible to client
+
+#Devloper
+Development Team: Development team gets the requirement for the development of new application from the client, based on their requirement. 
+Developers prepare a code based on the application requirement(Java,Python,etc..).
+Application will be saved in Local repository called Git (De centralized control version system)
+Creating Repository, file, initialize git, adding files to git, commit, upstream, push to GitHub
+Developed code will be synced with SCM(GitHub) account.
+
+#Operations
+Operations team has to build server with the specific requirement that support the application to be deployed.
+Based on the requirement of application it can be a (Physical server, Virtual machine, Cloud based server, Container)
+This example, we are taking a Virtual machine. Now Operations team has to clone the code from GitHub to Webserver
+Finally the application will be available to client
+
+There are lot of manual operations that are being performed in this process. There are lot of Silos between #Dev#Ops
+Operations team has to continuously look for the updated code from Github and clone to the Webserver, this require manual efforts.
+If the code fails they have to reach to #Developer. If the #Operations aware of the previous code they will roll back the code. 
+All this require manual effort, which will impact the client satisfaction.
+To fulfil the Silos between the #Operations #Developer #DevOps
