@@ -1,0 +1,16 @@
+#Day2 #Summary #SessionSummary
+What is SCM(source control management)?
+Benefits of using SCM 
+Pair Program
+Centralized control version system (Github) - Internet
+Decentralized control version system (git) - Local system
+Benefits of using the Git
+Creating a repository in Github, upload a file, changes to file
+Installing Git on Windows, Linux
+Cloning repository from GitHub
+Multiple version of file
+(Add -- Commit -- Push)
+Switch the version between the files
+(Reset -- Checkout)
+How to recognize the current Head File
+Roll back of version of file from CLI
